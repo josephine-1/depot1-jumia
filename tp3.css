@@ -1,0 +1,199 @@
+body{
+    background-color:lightgray;
+    box-sizing: border-box;
+}
+*
+{
+  box-sizing: border-box;
+}
+#sec1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+  }
+  
+  li a{
+     margin-left: 50px;
+    text-decoration: none;
+    font-size: 15px;
+    color:black;
+    
+    
+  }
+
+  
+  /*  SEction numéro 2 */
+  #menu{
+    background-color: white;
+    margin-top: 1%;
+    padding: 1%;
+    display: flex;
+  }
+  
+  nav{
+    margin-left: 5%;
+  }
+  input{
+    height: 30px;
+    width: 300px;
+  }
+  #btn{
+    height: 35px;
+    background-color:darkorange;
+    border:1px solid darkorange;
+    border-radius:5% ;
+  }
+  /* End Section numéro 2 */
+  /* Section3 */
+  #sec3{
+    display: flex;
+    margin: 15px;
+    box-sizing: border-box;
+    
+   
+  }
+  /* Partie 2 du section numéro3 */
+  .P2{
+    margin: 10px;
+    width: 50%;
+    background-color: white;
+    box-sizing: border-box;
+  }
+ 
+    /* Partie 3 du section numéro3 */
+  .P3{
+    
+   
+    box-sizing: border-box;
+    margin: 10px;
+    width: 30%;
+  }
+  .top{
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px;
+    border-radius: 10px;
+  }
+  .top i{
+    color: orange;
+    font-size: 20px;
+    border: 1px solid orange;
+    /* padding: 5px; */
+   /*  border-radius: 50%; */
+  }
+  .top p:hover{
+    color: orange;
+  }
+  .bottom img{
+    border: 1px;
+    border-radius: 10px;
+   
+  }
+ 
+  /* Partie 1 du section numéro3 */
+  #partie1 ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    
+    
+  }
+
+  #partie1 li a{
+    margin-left: 20px;
+    
+    text-decoration: none;
+    font-size: 15px;
+    color:black;
+    padding-top: 10px ;
+  
+  }
+
+ #partie1 li a:hover{
+color: orange;
+ }
+ ul :hover{
+  color: orange;
+ }
+  .fa-star{
+    color: orange;
+   
+    
+  }
+  .fa{
+   
+    margin: 5px;
+  }
+  #partie1{
+    width: 25%;
+    background-color: white;
+    margin: 10px;
+    box-sizing: border-box;
+   
+  }
+ 
+ 
+  /* Section 4 */
+   
+  
+  #conteneur{
+   
+    display: flex;
+    width: 160%;
+    transition: 2s; 
+    
+   
+  }
+   .mesImages img{
+    width: 120px;
+     margin: 10px; 
+  
+
+    
+  }
+  .mesImages{
+    
+    width:90%;
+    overflow-x: hidden;
+   
+    
+    
+   
+  }
+  footer{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+    width: 90%;
+  }
+  #arrow1,#arrow2{
+   
+    font-size: 30px;
+    position: absolute;
+    top: 40px;
+  }
+  #arrow1{
+    left: 0;
+  }
+  #arrow2{
+    right: 0;
+  }
+  .mvt-right{
+    transform: translateX(-530px);
+  }
+  .mvt-left{
+    transform: translateX(0px);
+  }
+ 
+  
