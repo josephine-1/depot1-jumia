@@ -10,6 +10,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
+
 }
 ul {
     list-style-type: none;
@@ -32,9 +33,10 @@ ul {
   /*  SEction numéro 2 */
   #menu{
     background-color: white;
-    margin-top: 1%;
+    width: 1260px;
     padding: 1%;
     display: flex;
+   margin-bottom: 1%;
   }
   
   nav{
@@ -54,17 +56,21 @@ ul {
   /* Section3 */
   #sec3{
     display: flex;
-    margin: 15px;
+    align-items: center;
+    justify-content: center;
+   gap: 1rem;
     box-sizing: border-box;
+
     
    
   }
   /* Partie 2 du section numéro3 */
   .P2{
-    margin: 10px;
-    width: 50%;
+    height: 400px;
+    width: 600px;
     background-color: white;
-    box-sizing: border-box;
+    
+  
   }
  
     /* Partie 3 du section numéro3 */
@@ -72,8 +78,8 @@ ul {
     
    
     box-sizing: border-box;
-    margin: 10px;
-    width: 30%;
+   height: 400px;
+    width: 300px;
   }
   .top{
     background-color: white;
@@ -81,6 +87,8 @@ ul {
     margin-bottom: 15px;
     border: 1px;
     border-radius: 10px;
+    width: 230px;
+    height: 209px;
   }
   .top i{
     color: orange;
@@ -95,6 +103,8 @@ ul {
   .bottom img{
     border: 1px;
     border-radius: 10px;
+    width: 230px;
+    height: 180px;
    
   }
  
@@ -135,10 +145,13 @@ color: orange;
     margin: 5px;
   }
   #partie1{
-    width: 25%;
+    width: 220px;
     background-color: white;
-    margin: 10px;
+    height: 400px;
     box-sizing: border-box;
+    border: 1px solid white;
+    border-radius: 10px;
+    
    
   }
  
@@ -171,11 +184,12 @@ color: orange;
    
   }
   footer{
+    margin: 7px;
     position: relative;
     display: flex;
     justify-content: center;
-    
-    width: 90%;
+    background-color: white;
+    width: 1200px;
   }
   #arrow1,#arrow2{
    
